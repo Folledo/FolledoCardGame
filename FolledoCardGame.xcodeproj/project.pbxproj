@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E108A361E0C8C2A00630112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E108A351E0C8C2A00630112 /* AppDelegate.swift */; };
+		7E108A381E0C8C2A00630112 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E108A371E0C8C2A00630112 /* GameScene.sks */; };
+		7E108A3A1E0C8C2A00630112 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E108A391E0C8C2A00630112 /* Actions.sks */; };
+		7E108A3C1E0C8C2A00630112 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E108A3B1E0C8C2A00630112 /* GameScene.swift */; };
+		7E108A3E1E0C8C2A00630112 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E108A3D1E0C8C2A00630112 /* GameViewController.swift */; };
+		7E108A411E0C8C2B00630112 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E108A3F1E0C8C2B00630112 /* Main.storyboard */; };
+		7E108A431E0C8C2B00630112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E108A421E0C8C2B00630112 /* Assets.xcassets */; };
+		7E108A461E0C8C2B00630112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E108A441E0C8C2B00630112 /* LaunchScreen.storyboard */; };
+		7E108A511E0C8C2B00630112 /* FolledoCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E108A501E0C8C2B00630112 /* FolledoCardGameTests.swift */; };
+		7E108A5C1E0C8C2B00630112 /* FolledoCardGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E108A5B1E0C8C2B00630112 /* FolledoCardGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E108A4D1E0C8C2B00630112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E108A2A1E0C8C2900630112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E108A311E0C8C2900630112;
+			remoteInfo = FolledoCardGame;
+		};
+		7E108A581E0C8C2B00630112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E108A2A1E0C8C2900630112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E108A311E0C8C2900630112;
+			remoteInfo = FolledoCardGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E108A321E0C8C2A00630112 /* FolledoCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolledoCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E108A351E0C8C2A00630112 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E108A371E0C8C2A00630112 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7E108A391E0C8C2A00630112 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7E108A3B1E0C8C2A00630112 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7E108A3D1E0C8C2A00630112 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7E108A401E0C8C2B00630112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E108A421E0C8C2B00630112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E108A451E0C8C2B00630112 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E108A471E0C8C2B00630112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E108A4C1E0C8C2B00630112 /* FolledoCardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolledoCardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E108A501E0C8C2B00630112 /* FolledoCardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolledoCardGameTests.swift; sourceTree = "<group>"; };
+		7E108A521E0C8C2B00630112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E108A571E0C8C2B00630112 /* FolledoCardGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolledoCardGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E108A5B1E0C8C2B00630112 /* FolledoCardGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolledoCardGameUITests.swift; sourceTree = "<group>"; };
+		7E108A5D1E0C8C2B00630112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E108A2F1E0C8C2900630112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E108A491E0C8C2B00630112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E108A541E0C8C2B00630112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E108A291E0C8C2900630112 = {
+			isa = PBXGroup;
+			children = (
+				7E108A341E0C8C2A00630112 /* FolledoCardGame */,
+				7E108A4F1E0C8C2B00630112 /* FolledoCardGameTests */,
+				7E108A5A1E0C8C2B00630112 /* FolledoCardGameUITests */,
+				7E108A331E0C8C2A00630112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E108A331E0C8C2A00630112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E108A321E0C8C2A00630112 /* FolledoCardGame.app */,
+				7E108A4C1E0C8C2B00630112 /* FolledoCardGameTests.xctest */,
+				7E108A571E0C8C2B00630112 /* FolledoCardGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E108A341E0C8C2A00630112 /* FolledoCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				7E108A351E0C8C2A00630112 /* AppDelegate.swift */,
+				7E108A371E0C8C2A00630112 /* GameScene.sks */,
+				7E108A391E0C8C2A00630112 /* Actions.sks */,
+				7E108A3B1E0C8C2A00630112 /* GameScene.swift */,
+				7E108A3D1E0C8C2A00630112 /* GameViewController.swift */,
+				7E108A3F1E0C8C2B00630112 /* Main.storyboard */,
+				7E108A421E0C8C2B00630112 /* Assets.xcassets */,
+				7E108A441E0C8C2B00630112 /* LaunchScreen.storyboard */,
+				7E108A471E0C8C2B00630112 /* Info.plist */,
+			);
+			path = FolledoCardGame;
+			sourceTree = "<group>";
+		};
+		7E108A4F1E0C8C2B00630112 /* FolledoCardGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E108A501E0C8C2B00630112 /* FolledoCardGameTests.swift */,
+				7E108A521E0C8C2B00630112 /* Info.plist */,
+			);
+			path = FolledoCardGameTests;
+			sourceTree = "<group>";
+		};
+		7E108A5A1E0C8C2B00630112 /* FolledoCardGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E108A5B1E0C8C2B00630112 /* FolledoCardGameUITests.swift */,
+				7E108A5D1E0C8C2B00630112 /* Info.plist */,
+			);
+			path = FolledoCardGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E108A311E0C8C2900630112 /* FolledoCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E108A601E0C8C2B00630112 /* Build configuration list for PBXNativeTarget "FolledoCardGame" */;
+			buildPhases = (
+				7E108A2E1E0C8C2900630112 /* Sources */,
+				7E108A2F1E0C8C2900630112 /* Frameworks */,
+				7E108A301E0C8C2900630112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FolledoCardGame;
+			productName = FolledoCardGame;
+			productReference = 7E108A321E0C8C2A00630112 /* FolledoCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E108A4B1E0C8C2B00630112 /* FolledoCardGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E108A631E0C8C2B00630112 /* Build configuration list for PBXNativeTarget "FolledoCardGameTests" */;
+			buildPhases = (
+				7E108A481E0C8C2B00630112 /* Sources */,
+				7E108A491E0C8C2B00630112 /* Frameworks */,
+				7E108A4A1E0C8C2B00630112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E108A4E1E0C8C2B00630112 /* PBXTargetDependency */,
+			);
+			name = FolledoCardGameTests;
+			productName = FolledoCardGameTests;
+			productReference = 7E108A4C1E0C8C2B00630112 /* FolledoCardGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E108A561E0C8C2B00630112 /* FolledoCardGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E108A661E0C8C2B00630112 /* Build configuration list for PBXNativeTarget "FolledoCardGameUITests" */;
+			buildPhases = (
+				7E108A531E0C8C2B00630112 /* Sources */,
+				7E108A541E0C8C2B00630112 /* Frameworks */,
+				7E108A551E0C8C2B00630112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E108A591E0C8C2B00630112 /* PBXTargetDependency */,
+			);
+			name = FolledoCardGameUITests;
+			productName = FolledoCardGameUITests;
+			productReference = 7E108A571E0C8C2B00630112 /* FolledoCardGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E108A2A1E0C8C2900630112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Samuel Folledo";
+				TargetAttributes = {
+					7E108A311E0C8C2900630112 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8KSKUH7X29;
+						ProvisioningStyle = Automatic;
+					};
+					7E108A4B1E0C8C2B00630112 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8KSKUH7X29;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E108A311E0C8C2900630112;
+					};
+					7E108A561E0C8C2B00630112 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8KSKUH7X29;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7E108A311E0C8C2900630112;
+					};
+				};
+			};
+			buildConfigurationList = 7E108A2D1E0C8C2900630112 /* Build configuration list for PBXProject "FolledoCardGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E108A291E0C8C2900630112;
+			productRefGroup = 7E108A331E0C8C2A00630112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E108A311E0C8C2900630112 /* FolledoCardGame */,
+				7E108A4B1E0C8C2B00630112 /* FolledoCardGameTests */,
+				7E108A561E0C8C2B00630112 /* FolledoCardGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E108A301E0C8C2900630112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E108A411E0C8C2B00630112 /* Main.storyboard in Resources */,
+				7E108A381E0C8C2A00630112 /* GameScene.sks in Resources */,
+				7E108A431E0C8C2B00630112 /* Assets.xcassets in Resources */,
+				7E108A461E0C8C2B00630112 /* LaunchScreen.storyboard in Resources */,
+				7E108A3A1E0C8C2A00630112 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E108A4A1E0C8C2B00630112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E108A551E0C8C2B00630112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E108A2E1E0C8C2900630112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E108A3C1E0C8C2A00630112 /* GameScene.swift in Sources */,
+				7E108A3E1E0C8C2A00630112 /* GameViewController.swift in Sources */,
+				7E108A361E0C8C2A00630112 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E108A481E0C8C2B00630112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E108A511E0C8C2B00630112 /* FolledoCardGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E108A531E0C8C2B00630112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E108A5C1E0C8C2B00630112 /* FolledoCardGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E108A4E1E0C8C2B00630112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E108A311E0C8C2900630112 /* FolledoCardGame */;
+			targetProxy = 7E108A4D1E0C8C2B00630112 /* PBXContainerItemProxy */;
+		};
+		7E108A591E0C8C2B00630112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E108A311E0C8C2900630112 /* FolledoCardGame */;
+			targetProxy = 7E108A581E0C8C2B00630112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E108A3F1E0C8C2B00630112 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E108A401E0C8C2B00630112 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E108A441E0C8C2B00630112 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E108A451E0C8C2B00630112 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E108A5E1E0C8C2B00630112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E108A5F1E0C8C2B00630112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E108A611E0C8C2B00630112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoCardGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7E108A621E0C8C2B00630112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoCardGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7E108A641E0C8C2B00630112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoCardGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoCardGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolledoCardGame.app/FolledoCardGame";
+			};
+			name = Debug;
+		};
+		7E108A651E0C8C2B00630112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoCardGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoCardGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolledoCardGame.app/FolledoCardGame";
+			};
+			name = Release;
+		};
+		7E108A671E0C8C2B00630112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoCardGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoCardGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FolledoCardGame;
+			};
+			name = Debug;
+		};
+		7E108A681E0C8C2B00630112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8KSKUH7X29;
+				INFOPLIST_FILE = FolledoCardGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FolledoSwag.FolledoCardGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FolledoCardGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E108A2D1E0C8C2900630112 /* Build configuration list for PBXProject "FolledoCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E108A5E1E0C8C2B00630112 /* Debug */,
+				7E108A5F1E0C8C2B00630112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E108A601E0C8C2B00630112 /* Build configuration list for PBXNativeTarget "FolledoCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E108A611E0C8C2B00630112 /* Debug */,
+				7E108A621E0C8C2B00630112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E108A631E0C8C2B00630112 /* Build configuration list for PBXNativeTarget "FolledoCardGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E108A641E0C8C2B00630112 /* Debug */,
+				7E108A651E0C8C2B00630112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E108A661E0C8C2B00630112 /* Build configuration list for PBXNativeTarget "FolledoCardGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E108A671E0C8C2B00630112 /* Debug */,
+				7E108A681E0C8C2B00630112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E108A2A1E0C8C2900630112 /* Project object */;
+}
